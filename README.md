@@ -9,6 +9,14 @@ Play ChatGPT and other LLM with Xiaomi AI Speaker
 
 ![image](https://user-images.githubusercontent.com/15976103/220028375-c193a859-48a1-4270-95b6-ef540e54a621.png)
 ![image](https://user-images.githubusercontent.com/15976103/226802344-9c71f543-b73c-4a47-8703-4c200c434dec.png)
+## 更新
+增加通义星辰适配
+https://xingchen.aliyun.com/xingchen/
+![111](https://github.com/user-attachments/assets/f4c4b207-bc13-4eab-8889-1003aa69c239)
+
+使用：
+export xingchen_API_KEY="xxxx"
+xiaogpt --hardware LX06  --mute_xiaoai --use_xingchen
 
 ## 支持的 AI 类型
 
