@@ -393,7 +393,7 @@ class MiGPT:
             else:
                 # waiting for xiaoai speaker done
                 await asyncio.sleep(8)
-            await self.do_tts(f"正在问{self.chatbot.name}请耐心等待")
+            await self.do_tts(f"我想一哈")
             try:
                 print(
                     "以下是小爱的回答: ",

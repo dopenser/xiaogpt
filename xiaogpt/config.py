@@ -60,6 +60,7 @@ class Config:
     glm_key: str = os.getenv("CHATGLM_KEY", "")
     gemini_key: str = os.getenv("GEMINI_KEY", "")  # keep the old rule
     qwen_key: str = os.getenv("DASHSCOPE_API_KEY", "")  # keep the old rule
+    xingchen_key: str = os.getenv("xingchen_API_KEY", "")
     serpapi_api_key: str = os.getenv("SERPAPI_API_KEY", "")
     gemini_api_domain: str = os.getenv(
         "GEMINI_API_DOMAIN", ""
@@ -147,6 +148,8 @@ class Config:
                     value = [kw for kw in value if kw]
                 elif key == "use_chatgpt_api":
                     key, value = "bot", "chatgptapi"
+                elif key == "use_xingchen":
+                    key, value = "bot", "xingchen"
                 elif key == "use_newbing":
                     key, value = "bot", "newbing"
                 elif key == "use_glm":

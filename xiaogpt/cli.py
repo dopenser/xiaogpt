@@ -63,6 +63,11 @@ def main():
         help="Alibaba Qwen api key",
     )
     parser.add_argument(
+        "--xingchen_key",
+        dest="xingchen_key",
+        help="Alibaba xingchen api key",
+    )
+    parser.add_argument(
         "--serpapi_api_key",
         dest="serpapi_api_key",
         help="serp api key see https://serpapi.com/",
@@ -129,6 +134,13 @@ def main():
         dest="bot",
         action="store_const",
         const="moonshot",
+        help="if use moonshot api",
+    )
+    bot_group.add_argument(
+        "--use_xingchen",
+        dest="bot",
+        action="store_const",
+        const="xingchen",
         help="if use moonshot api",
     )
     bot_group.add_argument(
@@ -199,6 +211,7 @@ def main():
             "moonshot",
             "yi",
             "llama",
+            "xingchen",
         ],
     )
     parser.add_argument(
