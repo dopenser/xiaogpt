@@ -15,8 +15,8 @@ https://xingchen.aliyun.com/xingchen/
 ![111](https://github.com/user-attachments/assets/f4c4b207-bc13-4eab-8889-1003aa69c239)
 
 使用：
-export xingchen_API_KEY="xxxx"
-xiaogpt --hardware LX06  --mute_xiaoai --use_xingchen
+- export xingchen_API_KEY="xxxx"
+- xiaogpt --hardware LX06  --mute_xiaoai --use_xingchen
 
 ## 支持的 AI 类型
 
